@@ -107,7 +107,6 @@ a:active {
     float: none;
   }
   #pig {
-  	float: left;
-  	size: 60%;
+  	size: 40%;
   }
 }
