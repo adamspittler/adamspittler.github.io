@@ -14,13 +14,9 @@ html {
 }
 
 #main_content {
-	max-width: 960px;	
+	max-width: 960px;
+	width: 100%;	
 }
-
-img {
-max-width: 100%;
-
-}	
 
 .vid_label {
 	font-size: 1.1em;
@@ -106,8 +102,11 @@ a:active {
   }
 }
 
-@media screen and (min-width: 700px) {
-  img {
-    opacity: 80%;
+@media (max-width: 500px) {
+  body {
+    float: none;
+  }
+  #pig {
+  	size: 40%;
   }
 }
